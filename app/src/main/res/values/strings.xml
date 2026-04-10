@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KasKu</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Selamat Datang di KasKu</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btn_login">Masuk</string>
+    <string name="login_failed">Username atau Password salah</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Beranda</string>
+    <string name="total_balance">Total Saldo</string>
+    <string name="total_income">Pemasukan</string>
+    <string name="total_expense">Pengeluaran</string>
+    <string name="transaction_history">Riwayat Transaksi</string>
+    <string name="no_transaction">Belum ada riwayat transaksi</string>
+
+    <!-- Add Transaction Screen -->
+    <string name="add_transaction_title">Tambah Transaksi</string>
+    <string name="transaction_type">Jenis Transaksi</string>
+    <string name="income">Pemasukan</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="amount">Nominal</string>
+    <string name="amount_hint">Masukkan nominal uang</string>
+    <string name="description">Keterangan</string>
+    <string name="description_hint">Contoh: Gaji bulanan, Beli makan</string>
+    <string name="date">Tanggal</string>
+    <string name="select_date">Pilih Tanggal</string>
+    <string name="btn_save">Simpan Transaksi</string>
+
+    <!-- Validation Messages -->
+    <string name="error_empty_amount">Nominal tidak boleh kosong</string>
+    <string name="error_zero_amount">Nominal harus lebih dari 0</string>
+    <string name="error_empty_description">Keterangan tidak boleh kosong</string>
+    <string name="error_empty_date">Tanggal belum dipilih</string>
+    <string name="transaction_saved">Transaksi berhasil disimpan</string>
+
+    <!-- Currency -->
+    <string name="currency_format">Rp %s</string>
+
+    <!-- Date Format -->
+    <string name="date_format">dd MMM yyyy</string>
+</resources>
